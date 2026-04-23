@@ -6,9 +6,11 @@ import {
   woc2Logo,
   csicBrochurePdf,
   toaLogo,
-  tnasLogo,
+  tnas1Logo,
   societyLogo,
   moaLogo,
+  esskaLogo,
+  iasLogo,
   welcomeDrSassendar,
   welcomeDrNavaladi,
   welcomeDrVishnu,
@@ -254,8 +256,8 @@ function App() {
     {title: 'Resverse shoulder arthroplasty', img: handsOn1},
     {title: 'Resverse shoulder arthroplasty virtual planning', img: handsOn2},
     {title: 'High tibial osteotomy', img: handsOn3},
-    {title: 'ACL reconstruction', img: handsOn4},
-    {title: 'Meniscus repair', img: handsOn5},
+    {title: 'ACL reconstruction', img: handsOn5},
+    {title: 'Meniscus repair', img: handsOn4},
   ]
 
   const specialities = [
@@ -589,10 +591,12 @@ function App() {
         <section id="authorizedby" className="panel authorizedby">
           <h2 className="authorizedby-title">Authorized By</h2>
           <div className="authorizedby-logos">
+            <img src={esskaLogo} alt="ESSKA logo" />
             <img src={societyLogo} alt="Society logo" />
+            <img src={iasLogo} alt="IAS logo" />
             <img src={toaLogo} alt="TOA logo" />
             <img src={moaLogo} alt="MOA logo" />
-            <img src={tnasLogo} alt="TNAS logo" />
+            <img src={tnas1Logo} alt="TNAS logo" />
           </div>
         </section>
 
